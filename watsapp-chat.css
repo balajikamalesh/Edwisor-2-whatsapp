@@ -1,0 +1,56 @@
+body{
+	font-size:16px;
+	height:100%;
+	background-color: #F2F4F7;
+	line-height: normal;
+	background-image: url('wtasapp-background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.navbar {
+	background-color: #215E5A;
+}
+
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
+}
+
+.row{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.user-chat{
+	display: flex;
+	justify-content: flex-start;
+	width: 30%;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.my-chat{
+	display: flex;
+	justify-content: flex-end;
+	background-color: #DCF8C6;
+	margin-left: 50%;
+	border-radius: 10px;
+}
+
+.msg{
+    padding : 10px 20px;
+    border-radius: 10px;
+}
+
+.form-group{
+	width: 100%;
+	position: absolute;
+	border-radius: 0.25rem;
+}
+
+img{
+	width: 50px;
+	height: 50px;
+	float: right;
+}

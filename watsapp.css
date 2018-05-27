@@ -1,0 +1,36 @@
+body{
+	font-size:16px;
+	height:100%;
+	background-color: #F2F4F7;
+	line-height: normal;
+}
+
+.navbar {
+	background-color: #215E5A;
+}
+
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
+}
+
+.fas.fa-male, .fas.fa-female, .fas.fa-users{
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 30px;
+} 
+
+.row{
+	border-radius: 20px;
+}
+
+.row:hover{
+	background-color: #eeeeee;
+	cursor: pointer;
+}
+
+.unread{
+	padding: 2%;
+	background-color: #00C931;
+}
+

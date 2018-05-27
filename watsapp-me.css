@@ -1,0 +1,67 @@
+body{
+	font-size:16px;
+	height:100%;
+	background-color: #F2F4F7;
+	line-height: normal;
+	background-image: url('wtasapp-background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.navbar {
+	background-color: #215E5A;
+}
+
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
+}
+
+.container{
+	border-radius: 1%;
+}
+
+#left{
+	border: 1px solid white;
+	background-color: white;
+	text-align: center;
+	padding: 3%;
+	border-right: 1px solid lightgrey;
+	border-top: 1px solid lightgrey;
+}
+
+#right{
+	border: 1px solid white;
+	background-color: white;
+	padding: 3%;
+	border-right: 1px solid lightgrey;
+	border-top: 1px solid lightgrey;
+}
+
+#media{
+	font-size: 1em;
+	text-align: left;
+	color: #215E5A;
+}
+
+#block{
+	color: grey;
+}
+
+img{
+	width: 100px;
+	height: 100px;
+}
+
+.left-icon{
+	float: right;
+}
+
+.danger{
+	color: red;
+}
+
+h4:hover{
+	background-color: #eeeeee;
+	cursor: pointer;
+}
